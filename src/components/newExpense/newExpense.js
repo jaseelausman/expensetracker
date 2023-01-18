@@ -3,6 +3,7 @@ import ExpenseForm from './expenseForm';
 import "./newExpense.css";
 
 
+
 function NewExpense(props) 
 {
   const addExpense=(expense)=>{
@@ -16,6 +17,8 @@ function NewExpense(props)
   return (
   <div className='new-expense'>
     <ExpenseForm  onSavenexpense={addExpense}/>
+    
+    
   </div>
     
   );

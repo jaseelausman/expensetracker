@@ -5,11 +5,13 @@ import "./Expenseitem.css";
 
 
 
+
 function ExpenseItem(props)
 {
-  const[title,setTitle]=useState(props.title)
- 
+  
+  
   return (
+    
     <div className="expense-item ">
       <ExpenseDate date={props.date}></ExpenseDate>
       <div className="expense-item__description ">

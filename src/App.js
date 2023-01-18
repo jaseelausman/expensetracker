@@ -5,6 +5,7 @@ import React,{useState} from 'react';
 
 
 
+
 let dummyexpenses = [
   {
     id: 'e1',
@@ -44,6 +45,7 @@ function App()
   return (
       <div>
       <NewExpense onAddExpense={addExpenseHandler} />
+      
       <Expenses items={exp}/>
       </div>
   
